@@ -19,6 +19,7 @@ export const TodoWrapperLocalStorage = () => {
         setTodos(newTodos);
         localStorage.setItem('todos', JSON.stringify(newTodos));
     }
+    rsdctvyuuijrxcrtyguikk
 
     const toggleComplete = id => {
         const newTodos = todos.map(todo => todo.id === id ? {...todo, completed: !todo.completed} : todo);
